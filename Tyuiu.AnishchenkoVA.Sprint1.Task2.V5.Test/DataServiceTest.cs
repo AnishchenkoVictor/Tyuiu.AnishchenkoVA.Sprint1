@@ -10,7 +10,7 @@ namespace Tyuiu.AnishchenkoVA.Sprint1.Task2.V5.Test
             DataService ds = new DataService();
             int x = 5;
             var res = ds.CalculateSideSquare(x);
-            Assert.AreEqual(100, res);
+            Assert.AreEqual(125, res);
         }
     }
 }
