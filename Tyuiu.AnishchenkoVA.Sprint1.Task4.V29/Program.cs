@@ -32,7 +32,7 @@ namespace Tyuiu.AnishchenkoVA.Sprint1.Task4.V29
             Console.WriteLine("* РЕЗУЛЬТАТ:                                                              *");
             Console.WriteLine("***************************************************************************");
 
-            Console.WriteLine("Результат по формуле = " + Math.Round(ds.Calculate(x, y), 3));
+            Console.WriteLine("Результат по формуле = " + ds.Calculate(x, y));
         }
     }
 }

@@ -6,7 +6,7 @@ namespace Tyuiu.AnishchenkoVA.Sprint1.Task4.V29.Lib
     {
         public double Calculate(double x, double y)
         {
-            var res = (Math.Sqrt(2 + Math.Abs(x - 2*y)))/(3*x*Math.Pow(y, 2));
+            var res = Math.Round((Math.Sqrt(2 + Math.Abs(x - 2*y)))/(3*x*Math.Pow(y, 2)), 3);
             return res;
         }
     }
